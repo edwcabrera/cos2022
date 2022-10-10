@@ -414,13 +414,17 @@ p {
 }
 #cards{
   width: 225px;
-  height: auto;
+  height: 361px;
   background-color: white;
   border-radius: 5%;
   overflow: hidden;
   position: relative;
 }
 
+.img-container{
+  height: 250px;
+  overflow: hidden;
+}
 #cards p{
   color: #1E1E40;
   font-weight: 300;
@@ -439,11 +443,10 @@ p {
 
 #cards img{
   width: 225px;
-  height: 205px;
 }
 
 .expo--info{
-  padding: 20px 25px;
+  padding: 16px 25px;
   text-align: left;
 }
 
@@ -463,27 +466,27 @@ p {
 }
 
 .expo--card-2 span{
-  background-image: url(./Resouces/Icon/MX.svg);
+  background-image: url(./Resouces/Icon/MX.png);
 }
 
 .expo--card-3 span{
-  background-image: url(./Resouces/Icon/USA2.svg);
+  background-image: url(./Resouces/Icon/DO2.png);
 }
 
 .expo--card-4 span{
-  background-image: url(./Resouces/Icon/DO2.svg);
+  background-image: url(./Resouces/Icon/USA2.png);
 }
 
 .expo--card-5 span{
-  background-image: url(./Resouces/Icon/CO.svg);
+  background-image: url(./Resouces/Icon/MX.png);
 }
 
 .expo--card-6 span{
-  background-image: url(./Resouces/Icon/PR.svg);
+  background-image: url(./Resouces/Icon/MX.png);
 }
 
 .expo--card-7 span{
-  background-image: url(./Resouces/Icon/DO2.svg);
+  background-image: url(./Resouces/Icon/CO.png);
 }
 
 .expo--card-8 span{
@@ -495,6 +498,7 @@ p {
   font-weight: 700;
   font-size: 19px;
   margin-bottom: 5px;
+  line-height: 22px;
 }
 
 .expo--info p{
