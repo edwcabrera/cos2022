@@ -373,6 +373,12 @@ p {
   padding: 75px 0;
 }
 
+.expositores strong{
+  color: #EB5437;
+  font-weight: 700;
+  text-transform: uppercase;
+} 
+
 .expositores h2{
   font-size: 50px;
   font-weight: 700;
