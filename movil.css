@@ -534,3 +534,23 @@
   .zoom a{
   cursor: pointer;
   }
+
+  .boton-registrate{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  
+  
+  }
+  
+  .boton-regi{
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background: #1E55BF;
+    cursor: pointer;
+    text-align: center;
+  }
