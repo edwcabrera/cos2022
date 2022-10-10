@@ -483,7 +483,12 @@
   .expo--card-8 span{
     background-image: url(./Resouces/Icon/MX.svg);
   }
-  
+
+  .expositores strong{
+    color: #EB5437;
+    font-weight: 700;
+    text-transform: uppercase;
+  } 
   .expo--info h4{
     color: #1E1E40;
     font-weight: 700;
