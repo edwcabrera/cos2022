@@ -105,7 +105,7 @@ p {
   letter-spacing: 4%;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 85px;
+  margin-bottom: 50px;
 }
 
 /* Tarjetas */
@@ -478,7 +478,7 @@ p {
 }
 
 .expo--card-5 span{
-  background-image: url(./Resouces/Icon/MX.png);
+  background-image: url(./Resouces/Icon/CO.png);
 }
 
 .expo--card-6 span{
@@ -505,6 +505,7 @@ p {
   text-align: left;
   font-weight: 300;
   font-size: 13px;
+  text-transform: uppercase;
 }
 .transmision{
  margin: 0 auto;
@@ -543,4 +544,29 @@ text-align: center;
 
 .zoom a{
 cursor: pointer;
+}
+
+.boton-registrate{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+
+}
+
+.boton-regi{
+  display: flex;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background: #1E55BF;
+  cursor: pointer;
+  text-align: center;
+}
+
+.boton-regi:hover{
+  background: #EB5437;
+
 }
