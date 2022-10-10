@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS 2022 | IMPARABLE </title>
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("October 28, 2022 09:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+           
+           
+            // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days;
+          
+           // Output the result in an element with id="demo2"
+          document.getElementById("demo2").innerHTML = hours;
+          
+          // Output the result in an element with id="demo3"
+          document.getElementById("demo3").innerHTML = minutes;
+          
+          // Output the result in an element with id="demo4"
+          document.getElementById("demo4").innerHTML = seconds;
+          
+          
+          
+            
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script> 
+</head>
+<body>
+    <main>
+    <section class="video">
+        <video id="myVideo" autoplay muted loop >
+            <source src="./Resouces/video/COS.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+          </video>
+    </section>
+    <Section class="info">
+        <div class="info_count">
+         
+          
+
+                <section class="main-count">
+
+                    
+                       <section class="count">
+                    <div class="count-info">
+                        <p id="p">D</p>
+                    <p id="demo"></p>
+                    
+                    </div>
+                    
+                    <div class="count-info">
+                        <p id="p">H</p>
+                    <p id="demo2"></p>
+                    
+                    </div>
+                    <div class="count-info">
+                        <p id="p">M</p>
+                    <p id="demo3"></p>
+                    
+                    </div>
+                    <div class="count-info">
+                        <p id="p">S</p>
+                    <p id="demo4"></p>
+                    
+                    </div>
+            </section>
+
+        
+        </div>
+        <div class="info_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed morbi in nunc morbi proin ipsum lacinia et enim. 
+                <br> Aenean elementum aliquet elit ipsum tempor sed velit diam at. Augue ornar Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi reprehenderit temporibus laboriosam, in esse dolorem nulla consequuntur. Minus ullam consectetur libero sequi velit quisquam amet delectus tempora? Unde, doloremque dolore?</p>
+            <h2>VIERNES 28 DE OCTUBRE</h2>
+        </div>
+        <section class="info_cards">
+            <div class="card-1">
+                <div class="card1-tittle"> <h3>Sesión <br> Matutina</h3></div>
+                <div class="card1-date">
+                    <div class=" flag country1">
+                        <span></span>
+                        <p>9:00AM A 12:00PM CST</p>
+                    </div>
+                    <div class=" flag country2">
+                        <span></span>
+                        <p>10:00AM A 1:00PM</p>
+                    </div>
+                    <div class="flag country3">
+                        <span></span>
+                        <p>16:00PM A 17:00PM</p>
+                    </div>
+                </div>
+                <div class="card1-button">
+                    <a href="https://www.instagram.com/"><div class="Save" role="button"><span></span> Agendar</div></a>
+                    <a href=""><div class="play" role="button"> <span></span> Acceder</div></a>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="card2-tittle"> <h3>Sesión <br>Vespertina</h3></div>
+                <div class="card2-date">
+                    <div class="flag country1">
+                        <span></span>
+                        <p>9:00AM A 12:00PM CST</p>
+                    </div>
+                    <div class=" flag country2">
+                        <span></span>
+                        <p>10:00AM A 1:00PM</p>
+                    </div>
+                    <div class=" flag country3">
+                        <span></span>
+                        <p>16:00PM A 17:00PM</p>
+                    </div>
+                </div>
+                <div class="card2-button">
+                    <a href="https://www.instagram.com/"><div class="Save" role="button"><span></span> Agendar</div></a>
+                    <a href=""><div class="play" role="button"> <span></span> Acceder</div></a>
+                </div>
+            </div>
+        </section>
+</Section>
+<section class="end-cos">
+    <div class="expositores">
+        <h2>Temas Imparables</h2>
+        <div class="p">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed morbi in nunc morbi proin ipsum lacinia et enim. 
+            velit quisquam amet delectus tempora? Unde, doloremque dolore?</p></div>
+        <div class="expositores-cards">
+            <div class="expo--card-1" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-2" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-3" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-4" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-5" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-6" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-7" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+            <div class="expo--card-8" id="cards">
+                <div class="card-img">
+                <span></span>
+                <img src="./Resouces/img/EXPO-IMG.png" alt="">
+                </div>
+                <div class="expo--info">
+                <h4>Juan Contrera</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <section class="transmision">
+        <h5>Transmision mundial</h5>
+        
+        <div class="transmision-boton">
+            <a class="zoom" href="https://www.instagram.com/"><span></span></a>
+            <a class="youtube" href="https://www.instagram.com/"><span></span></a>
+    </div>
+    </section>
+
+
+    
+</section>
+</main>
+</body>
+</html>
