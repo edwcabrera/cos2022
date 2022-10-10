@@ -554,3 +554,8 @@
     cursor: pointer;
     text-align: center;
   }
+
+  .img-container{
+    height: 250px;
+    overflow: hidden;
+  }
