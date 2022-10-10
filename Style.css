@@ -21,6 +21,9 @@ html{
 body{
   width: 100%;
   height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 p {
   text-align: center;
@@ -42,8 +45,8 @@ p {
 
 }
 .main-count{
-    width: 100%;
-    margin: 82px 0;
+    width: 90%;
+    margin: 82px auto;
     display: grid;
     grid-template-columns: minmax(500px, 1fr);
     grid-template-rows: minmax(50px, auto); 
