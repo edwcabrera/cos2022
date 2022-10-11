@@ -166,9 +166,11 @@ p {
   background-color: #193469;
   text-align: left;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  justify-items: center;
   border-radius: 23.97px;
+  align-items: center;
+  gap: 50px;
   
 }
 
@@ -192,7 +194,8 @@ p {
 .card1-button{
   display: flex;
   gap: 25px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  align-items: center;
 
 }
 
