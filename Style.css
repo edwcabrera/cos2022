@@ -6,6 +6,7 @@
 
 a{
 text-decoration: none;
+color: #ffffff;
 }
 
 #myVideo {
@@ -403,12 +404,12 @@ p {
 .expositores-cards{
   margin: 0 auto;
     width: 90%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 280px));
     grid-auto-rows: auto;
-    row-gap: 40px;
+    gap: 50px;
     overflow: hidden;
 }
 #cards{
@@ -573,4 +574,15 @@ cursor: pointer;
 
 }
 
+.backto-web{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.backto-web strong{
+  text-transform: uppercase;
+  text-decoration:underline;
+  color: #EB5437;
+}
 
