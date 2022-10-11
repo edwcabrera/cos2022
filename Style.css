@@ -379,7 +379,6 @@ p {
 .p strong{
   color: #EB5437;
   font-weight: 700;
-  text-transform: uppercase;
 } 
 
 .expositores h2{
@@ -413,21 +412,22 @@ p {
     overflow: hidden;
 }
 #cards{
-  width: 225px;
-  height: 361px;
-  background-color: white;
-  border-radius: 5%;
+  width: 240px;
+  height: 321px;
+  border-radius: 23.97px;
   overflow: hidden;
   position: relative;
 }
 
 .img-container{
-  height: 250px;
-  overflow: hidden;
+  height: 227px;
 }
 #cards p{
-  color: #1E1E40;
+  color: #ffffff;
   font-weight: 300;
+  font-size: 15px;
+  margin-top: 10px;
+  line-height: 16px;
 }
 .card-img{
   display: flex;
@@ -435,19 +435,20 @@ p {
   
 }
 .card-img img{
-  object-fit: cover;
   position: inherit;
-  top: 22px;
 
 }
 
 #cards img{
-  width: 225px;
+  width: 240px;
 }
 
 .expo--info{
-  padding: 16px 25px;
-  text-align: left;
+  padding: 16px 16px;
+    text-align: left;
+    background-color: #EB5437;
+    position: relative;
+    background-blend-mode: lighten;
 }
 
 #cards span{
@@ -459,6 +460,20 @@ p {
   width: 25px;
   height: 25px;
   margin: 12px;
+}
+
+.expo--info h4{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+.expo--info p{
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
 }
 
 .expo--card-1 span{
@@ -493,20 +508,7 @@ p {
   background-image: url(./Resouces/Icon/MX.svg);
 }
 
-.expo--info h4{
-  color: #1E1E40;
-  font-weight: 700;
-  font-size: 19px;
-  margin-bottom: 5px;
-  line-height: 22px;
-}
 
-.expo--info p{
-  text-align: left;
-  font-weight: 300;
-  font-size: 13px;
-  text-transform: uppercase;
-}
 .transmision{
  margin: 0 auto;
 }
