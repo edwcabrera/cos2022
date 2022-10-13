@@ -170,17 +170,18 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   border-radius: 23.97px;
+  transition-duration: 700ms;
   
 }
 
 .card-1:hover{
-  transform: scale(1.2);
-  transition-duration: 1.3s;
+  transform: scale(1.2) translate(25px);
+  
 }
 
 .card-2:hover{
-  transform: scale(1.2);
-  transition-duration: 1.3s;
+  transform: scale(1.2) translate(-25px);
+  
 }
 
 .info_cards p{
@@ -283,6 +284,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   border-radius: 23.97px;
+  transition-duration: 700ms;
 }
 
 .info_cards p{
